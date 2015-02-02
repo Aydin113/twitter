@@ -3,7 +3,7 @@ module ApplicationHelper
     if title.empty?
       "Twitter"
     else
-      title + "| Twitter"
+      title + " | Twitter"
 end
   end
   
