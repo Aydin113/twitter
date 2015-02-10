@@ -1,0 +1,5 @@
+<% if @user.errors.any? %>
+<% @user.errors.full_messages.each do |massege|%>
+    <li><%= massege%></li>
+    <%end%>
+<%end%>
